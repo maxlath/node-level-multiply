@@ -1,4 +1,4 @@
-const after = require('after')
+var after = require('after')
 
 var getCallback = function (options, callback) {
       return typeof options == 'function' ? options : callback
